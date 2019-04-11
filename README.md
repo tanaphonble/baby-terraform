@@ -17,11 +17,14 @@
 
 1. run
    > make init
-2. paste access_key and secret_keys from iam credentials to infra/secrets.tfvars
+2. update secrets in infra/secrets.tfvars
 
 ```txt
 access_key = <<ACCESS_KEY>>
 secret_key = <<SECRET_KEY>>
+database_name = <<DATABASE_NAME>>
+database_username = <<DATABASE_USERNAME>>
+database_password = <<DATABASE_PASSWORD>>
 ```
 
 ## Deploy AWS

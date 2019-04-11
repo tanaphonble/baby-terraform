@@ -6,8 +6,10 @@ provider "aws" {
 }
 
 module "data-storage" {
-  source        = "data-storage"
-  database_name = "df3245vwwd324appdatastorage"
+  source            = "data-storage"
+  database_name     = "${var.database_name}"
+  database_username = "${var.database_username}"
+  database_password = "${var.database_password}"
 }
 
 module "file-storage" {
