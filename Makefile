@@ -15,4 +15,4 @@ destroy:
 	@app/destroy.sh
 
 
-reload: destroy apply
+reload: destroy plan apply
