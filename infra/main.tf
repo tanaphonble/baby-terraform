@@ -6,6 +6,11 @@ provider "aws" {
 }
 
 module "file-storage" {
-  source = "file-storage"
-  bucket_name = "0987656789765trghgfdrg-app-storage"
+  source      = "file-storage"
+  bucket_name = "0987656789765trghgfdrg-app-file-storage"
+}
+
+module "data-storage" {
+  source        = "data-storage"
+  database_name = "df3245vwwd324appdatastorage"
 }
