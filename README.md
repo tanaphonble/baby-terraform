@@ -8,14 +8,15 @@
 3. move `terraform` app to /usr/local/bin/
    > mv terraform /usr/local/bin/
 4. check command terraform is available
+
    > terraform version
-   
+
    it should prinnt out `Terraform v0.11.13`
 
 ## Initialize terraform
 
-1. run 
-> make init
+1. run
+   > make init
 2. paste access_key and secret_keys from iam credentials to infra/secrets.tfvars
 
 ```txt
@@ -24,11 +25,13 @@ secret_key = <<SECRET_KEY>>
 ```
 
 ## Deploy AWS
-1. run 
-> make apply
+
+1. run
+   > make apply
 2. answer `yes`
 
 ## Clear
-1. run 
-> make destroy
+
+1. run
+   > make destroy
 2. answer `yes`
