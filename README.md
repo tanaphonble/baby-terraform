@@ -7,6 +7,10 @@
 2. unzip and copy terraform to this directory
 3. move `terraform` app to /usr/local/bin/
    > mv terraform /usr/local/bin/
+4. check command terraform is available
+   > terraform version
+   
+   it should prinnt out 'Terraform v0.11.13'
 
 ## Initialize terraform
 
