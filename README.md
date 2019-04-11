@@ -10,7 +10,8 @@
 
 ## Initialize terraform
 
-1. run > make init
+1. run 
+> make init
 2. paste access_key and secret_keys from iam credentials to infra/secrets.tfvars
 
 ```txt
