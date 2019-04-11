@@ -3,3 +3,4 @@ credentials.*
 terraform.tfstate*
 secrets.tfvars
 output.txt
+app.tfplan

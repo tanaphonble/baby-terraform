@@ -1,4 +1,4 @@
 #!/bin/sh
 
 cd infra
-terraform apply -var-file="secrets.tfvars"
+terraform apply app.tfplan
