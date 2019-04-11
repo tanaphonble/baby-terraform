@@ -10,7 +10,7 @@
 4. check command terraform is available
    > terraform version
    
-   it should prinnt out 'Terraform v0.11.13'
+   it should prinnt out `Terraform v0.11.13`
 
 ## Initialize terraform
 
@@ -26,9 +26,9 @@ secret_key = <<SECRET_KEY>>
 ## Deploy AWS
 1. run 
 > make apply
-2. answer yes
+2. answer `yes`
 
 ## Clear
 1. run 
 > make destroy
-2. answer yes
+2. answer `yes`
